@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[lfs]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/NatalieALynch/MobileBookFollowing.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs "https://github.com/NatalieALynch/MobileBookFollowing.git/info/lfs"]
+	access = basic
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
